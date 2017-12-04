@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tunglam.travelkit.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imgChitChat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/chitchat"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="56dp"
+        android:onClick="onClickChitChat"/>
+
+    <TextView
+        android:id="@+id/textPlan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgChitChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChitChat"
+        android:textColor="#F39C12"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.098"
+        android:onClick="onClickChitChat"/>
+
+    <ImageButton
+        android:id="@+id/imageMap"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toRightOf="@+id/imgChitChat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="56dp"
+        android:onClick="onClickMap"/>
+
+    <TextView
+        android:id="@+id/textMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:onClick="onClickMap"
+        android:text="Pocket Map"
+        android:textColor="#138D75"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toRightOf="@+id/textPlan"
+        app:layout_constraintTop_toBottomOf="@+id/imageMap" />
+<!--
+    <ImageButton
+        android:id="@+id/imageWeather"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toRightOf="@+id/imageMap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/weather"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="96dp"
+        android:onClick="onClickWeather"/>
+
+    <TextView
+        android:id="@+id/textWeather"
+        app:layout_constraintLeft_toRightOf="@+id/textMap"
+        app:layout_constraintTop_toBottomOf="@+id/imageWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Channel"
+        android:textColor="#F39C12"
+        android:textSize="14sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="31dp"
+        android:onClick="onClickWeather"/>
+
+
+    <ImageButton
+        android:id="@+id/imgPhoto"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/photo"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgChitChat"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="179dp"
+        android:onClick="onClickPhoto"/>
+
+    <TextView
+        android:id="@+id/textPhoto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memoriable Photos"
+        android:textColor="#F39C12"
+        android:textSize="14sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="onClickPhoto"/>
+
+-->
+    <ImageButton
+        android:id="@+id/imgCompass"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginLeft="104dp"
+        android:onClick="onClickCompass"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:srcCompat="@drawable/compass"
+         />
+
+    <TextView
+        android:id="@+id/textCompass"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compass"
+        android:textColor="#138D75"
+        android:textSize="24sp"
+        android:layout_marginLeft="128dp"
+        android:onClick="onClickCompass"/>
+
+
+</android.support.constraint.ConstraintLayout>

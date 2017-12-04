@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369967452396",
+    "firebase_url": "https://travelkit-44456.firebaseio.com",
+    "project_id": "travelkit-44456",
+    "storage_bucket": "travelkit-44456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369967452396:android:85f64f7b7937f2e8",
+        "android_client_info": {
+          "package_name": "tunglam.travelkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369967452396-hshcflbcnsinud1spqvqdhu4vhf9rrls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tunglam.travelkit",
+            "certificate_hash": "0798ea54da73855095ce83d98337ce20749dbf77"
+          }
+        },
+        {
+          "client_id": "369967452396-t9ptdpidg8hpe6qd6gs4sscs4001fsee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4jT1B769EU8vWHq_vYSkBYfV8JaplEWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369967452396-t9ptdpidg8hpe6qd6gs4sscs4001fsee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
